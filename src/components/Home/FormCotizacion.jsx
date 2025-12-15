@@ -46,21 +46,31 @@ export default function FormCotizacion() {
   }
 
   return (
-    <div id='cotizacion' className='relative bg-[#53545B] py-20'>
-      <div className='container mx-auto px-4 relative'>
+    <div id='cotizacion' className='relative py-20 overflow-hidden'>
+      {/* Fondo parallax con gradiente oscuro para legibilidad */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+        style={{
+          backgroundImage: "linear-gradient(rgba(30,30,30,0.45), rgba(30,30,30,0.45)), url('/hero.webp')",
+          backgroundAttachment: 'fixed',
+          opacity: 0.85,
+        }}
+        aria-hidden="true"
+      ></div>
+      <div className='container mx-auto px-4 relative z-10'>
         <div className='max-w-4xl mx-auto'>
           {/* Header */}
           <div className='text-center mb-12'>
-            <h2 className='text-4xl md:text-5xl font-bold text-white mb-4'>
+            <h2 className='text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow'>
               Solicita tu <span className='text-[#E67B32]'>Cotización</span>
             </h2>
-            <p className='text-xl text-blue-100'>
+            <p className='text-xl text-white'>
               Déjanos tus datos y nos pondremos en contacto contigo de inmediato
             </p>
           </div>
 
           {/* Formulario */}
-          <div className='bg-white rounded-3xl shadow-2xl p-8 md:p-12'>
+          <div className='bg-white/95 rounded-3xl shadow-2xl p-8 md:p-12 backdrop-blur-sm'>
             <form onSubmit={handleSubmit} className='space-y-6'>
               {/* Nombre */}
               <div>

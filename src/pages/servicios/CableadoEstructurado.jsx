@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function CableadoEstructurado() {
   const servicios = [
@@ -111,6 +112,30 @@ export default function CableadoEstructurado() {
 
   return (
     <div className='bg-white'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Cableado Estructurado en Mérida | Redes Profesionales | IntegraObra.mx</title>
+        <meta name="description" content="Instalación profesional de cableado estructurado en Mérida y Yucatán: redes de datos, fibra óptica, racks, certificación, canalización y mantenimiento. Soluciones para oficinas, empresas y comercios. Cotiza tu red con expertos certificados." />
+        <meta name="keywords" content="cableado estructurado, redes de datos, instalación de red, fibra óptica, racks, patch panel, certificación de red, canalización, mantenimiento de red, IntegraObra, Mérida Yucatán, soluciones de conectividad, México" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://integraobra.mx/servicios/cableado-estructurado" />
+        {/* Open Graph */}
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:site_name" content="IntegraObra.mx" />
+        <meta property="og:title" content="Cableado Estructurado en Mérida | Redes Profesionales" />
+        <meta property="og:description" content="Instalación profesional de cableado estructurado en Mérida y Yucatán: redes de datos, fibra óptica, racks, certificación, canalización y mantenimiento. Soluciones para oficinas, empresas y comercios." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.mx/servicios/cableado-estructurado" />
+        <meta property="og:image" content="https://integraobra.mx/cableado/banner.webp" />
+        <meta property="og:image:alt" content="Cableado estructurado profesional en Mérida, IntegraObra" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@integraobra" />
+        <meta name="twitter:title" content="Cableado Estructurado en Mérida | Redes Profesionales" />
+        <meta name="twitter:description" content="Instalación profesional de cableado estructurado en Mérida y Yucatán: redes de datos, fibra óptica, racks, certificación, canalización y mantenimiento. Soluciones para oficinas, empresas y comercios." />
+        <meta name="twitter:image" content="https://integraobra.mx/cableado/banner.webp" />
+        <meta name="twitter:image:alt" content="Cableado estructurado profesional en Mérida, IntegraObra" />
+      </Helmet>
       {/* Hero Section */}
       <div className='relative bg-gray-900 text-white py-20 overflow-hidden'>
         <div 
@@ -366,8 +391,9 @@ export default function CableadoEstructurado() {
             <div className='relative rounded-2xl overflow-hidden shadow-2xl group order-first md:order-last'>
               <img 
                 src='/cableado/tecnico.webp' 
-                alt='Técnico instalando cableado de red'
+                alt='Técnico certificado instalando cableado estructurado profesional en Mérida, Yucatán'
                 className='w-full h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-500'
+                loading='lazy'
               />
               <div className='absolute inset-0 bg-gradient-to-t from-blue-900/60 to-transparent'></div>
               <div className='absolute bottom-6 left-6 right-6 text-white'>

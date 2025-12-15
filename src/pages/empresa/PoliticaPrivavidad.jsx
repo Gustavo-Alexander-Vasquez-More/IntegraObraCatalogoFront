@@ -1,8 +1,33 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function PoliticaPrivavidad() {
   return (
     <div className='bg-white'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Política de Privacidad | IntegraObra.mx - Protección de Datos y Derechos ARCO</title>
+        <meta name="description" content="Lee la política de privacidad de IntegraObra.mx. Descubre cómo protegemos tus datos personales, tus derechos ARCO, el uso mínimo de cookies y nuestras medidas de seguridad. Tu privacidad es nuestra prioridad en Mérida y todo México." />
+        <meta name="keywords" content="Política de privacidad, IntegraObra, protección de datos personales, derechos ARCO, cookies, seguridad, confidencialidad, Mérida, Yucatán, México" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://integraobra.mx/empresa/politica-privacidad" />
+        {/* Open Graph */}
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:site_name" content="IntegraObra.mx" />
+        <meta property="og:title" content="Política de Privacidad | IntegraObra.mx" />
+        <meta property="og:description" content="Conoce cómo IntegraObra protege tus datos personales, derechos ARCO y privacidad. Consulta nuestra política completa y contacta para ejercer tus derechos." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.mx/empresa/politica-privacidad" />
+        <meta property="og:image" content="https://integraobra.mx/empresa/privacidad-bg.jpg" />
+        <meta property="og:image:alt" content="Política de privacidad IntegraObra" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@integraobra" />
+        <meta name="twitter:title" content="Política de Privacidad | IntegraObra.mx" />
+        <meta name="twitter:description" content="Descubre cómo protegemos tu privacidad y datos personales en IntegraObra. Derechos ARCO, seguridad y contacto directo." />
+        <meta name="twitter:image" content="https://integraobra.mx/empresa/privacidad-bg.jpg" />
+        <meta name="twitter:image:alt" content="Política de privacidad IntegraObra" />
+      </Helmet>
       {/* Hero Section */}
       <div className='relative bg-gradient-to-br from-[#066396] to-[#0578b8] text-white py-16 overflow-hidden'>
         <div 
@@ -26,8 +51,8 @@ export default function PoliticaPrivavidad() {
             <p className='text-xl md:text-2xl text-blue-100'>
               Tu privacidad y seguridad son nuestra prioridad
             </p>
-            <p className='text-sm text-blue-200 mt-4'>
-              Última actualización: Diciembre 2025
+            <p className='text-sm text-blue-200 mt-4' aria-label='Fecha de última actualización'>
+              Última actualización: Diciembre 2024
             </p>
           </div>
         </div>

@@ -1,8 +1,8 @@
 import React from 'react'
-
 export default function HeroHome() {
   return (
     <div className='relative bg-gray-900 text-white overflow-hidden'>
+      
       {/* Imagen de fondo */}
       <div 
         className='absolute inset-0 bg-cover bg-center bg-no-repeat'

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function MantoClimas() {
   const servicios = [
@@ -112,6 +113,30 @@ export default function MantoClimas() {
 
   return (
     <div className='bg-white'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Instalación y Mantenimiento de Aires Acondicionados en Mérida | IntegraObra.mx</title>
+        <meta name="description" content="Instalación, reparación y mantenimiento de aires acondicionados en Mérida y Yucatán. Técnicos certificados, limpieza profunda, recarga de gas, detección de fugas y refacciones originales. Servicio rápido, garantía y precios justos." />
+        <meta name="keywords" content="mantenimiento de climas, instalación de aires acondicionados, reparación de climas, limpieza de aire acondicionado, recarga de gas, técnicos certificados, IntegraObra, Mérida Yucatán, servicio de climas, México" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://integraobra.mx/servicios/instalacion-manto-climas" />
+        {/* Open Graph */}
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:site_name" content="IntegraObra.mx" />
+        <meta property="og:title" content="Instalación y Mantenimiento de Aires Acondicionados en Mérida" />
+        <meta property="og:description" content="Instalación, reparación y mantenimiento de aires acondicionados en Mérida y Yucatán. Técnicos certificados, limpieza profunda, recarga de gas, detección de fugas y refacciones originales. Servicio rápido, garantía y precios justos." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.mx/servicios/instalacion-manto-climas" />
+        <meta property="og:image" content="https://integraobra.mx/climas/banner.webp" />
+        <meta property="og:image:alt" content="Técnicos certificados en aires acondicionados Mérida, IntegraObra" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@integraobra" />
+        <meta name="twitter:title" content="Instalación y Mantenimiento de Aires Acondicionados en Mérida" />
+        <meta name="twitter:description" content="Instalación, reparación y mantenimiento de aires acondicionados en Mérida y Yucatán. Técnicos certificados, limpieza profunda, recarga de gas, detección de fugas y refacciones originales. Servicio rápido, garantía y precios justos." />
+        <meta name="twitter:image" content="https://integraobra.mx/climas/banner.webp" />
+        <meta name="twitter:image:alt" content="Técnicos certificados en aires acondicionados Mérida, IntegraObra" />
+      </Helmet>
       {/* Hero Section */}
       <div className='relative bg-gradient-to-br from-cyan-600 to-blue-600 text-white py-20 overflow-hidden'>
         <div 
@@ -335,8 +360,9 @@ export default function MantoClimas() {
             <div className='relative rounded-2xl overflow-hidden shadow-2xl group order-first md:order-last'>
               <img 
                 src='/climas/aire.webp' 
-                alt='Técnico instalando aire acondicionado'
+                alt='Técnico certificado instalando aire acondicionado en Mérida, Yucatán'
                 className='w-full h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-500'
+                loading='lazy'
               />
               <div className='absolute inset-0 bg-gradient-to-t from-cyan-900/60 to-transparent'></div>
               <div className='absolute bottom-6 left-6 right-6 text-white'>

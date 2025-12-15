@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function Contacto() {
   const [formData, setFormData] = useState({
@@ -35,7 +36,26 @@ export default function Contacto() {
   }
 
   return (
-    <div className='min-h-screen bg-gray-50'>
+    <>
+      <Helmet>
+        <title>Contacto | IntegraObra Monterrey</title>
+        <meta name="description" content="Contáctanos para cotizaciones, dudas o información sobre servicios de construcción, mantenimiento, renta de maquinaria y más en Monterrey. Respuesta rápida y atención profesional. ¡Escríbenos por WhatsApp o correo!" />
+        <meta name="keywords" content="contacto IntegraObra, contacto construcción Monterrey, cotización obra Monterrey, WhatsApp IntegraObra, servicios construcción Monterrey, atención profesional Monterrey" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://integraobra.com/contacto" />
+        {/* Open Graph */}
+        <meta property="og:title" content="Contacto | IntegraObra Monterrey" />
+        <meta property="og:description" content="Contáctanos para cotizaciones, dudas o información sobre servicios de construcción, mantenimiento, renta de maquinaria y más en Monterrey. Respuesta rápida y atención profesional." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.com/contacto" />
+        <meta property="og:image" content="https://integraobra.com/contacto.webp" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contacto | IntegraObra Monterrey" />
+        <meta name="twitter:description" content="Contáctanos para cotizaciones, dudas o información sobre servicios de construcción, mantenimiento, renta de maquinaria y más en Monterrey. Respuesta rápida y atención profesional." />
+        <meta name="twitter:image" content="https://integraobra.com/contacto.webp" />
+      </Helmet>
+      <div className='min-h-screen bg-gray-50'>
       {/* Formulario e Imagen */}
       <div className='container mx-auto px-4 py-16'>
         <div className='grid md:grid-cols-2 gap-12 items-center'>
@@ -231,5 +251,5 @@ export default function Contacto() {
         </div>
       </div>
     </div>
-  )
-}
+    </>
+)}

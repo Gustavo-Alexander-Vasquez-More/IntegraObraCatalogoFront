@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function PreguntasFrecuentes() {
   const [openIndex, setOpenIndex] = useState(null)
@@ -75,6 +76,30 @@ export default function PreguntasFrecuentes() {
 
   return (
     <div className='bg-white'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Preguntas Frecuentes | IntegraObra.mx - Dudas sobre Servicios, Renta y Garantías</title>
+        <meta name="description" content="Resuelve tus dudas sobre servicios, renta de maquinaria, refacciones y garantías en IntegraObra.mx. Consulta las preguntas frecuentes y obtén respuestas claras y rápidas. Atención en Mérida y toda la República Mexicana." />
+        <meta name="keywords" content="Preguntas frecuentes, FAQ, IntegraObra, servicios de construcción, renta de maquinaria, refacciones, garantías, Mérida, Yucatán, México" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://integraobra.mx/empresa/preguntas-frecuentes" />
+        {/* Open Graph */}
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:site_name" content="IntegraObra.mx" />
+        <meta property="og:title" content="Preguntas Frecuentes | IntegraObra.mx" />
+        <meta property="og:description" content="Resuelve tus dudas sobre servicios, renta de maquinaria, refacciones y garantías en IntegraObra.mx. Atención en Mérida y envíos a todo México." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.mx/empresa/preguntas-frecuentes" />
+        <meta property="og:image" content="https://integraobra.mx/empresa/faq-bg.jpg" />
+        <meta property="og:image:alt" content="Preguntas frecuentes IntegraObra" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@integraobra" />
+        <meta name="twitter:title" content="Preguntas Frecuentes | IntegraObra.mx" />
+        <meta name="twitter:description" content="Resuelve tus dudas sobre servicios, renta de maquinaria, refacciones y garantías en IntegraObra.mx. Atención personalizada y rápida respuesta." />
+        <meta name="twitter:image" content="https://integraobra.mx/empresa/faq-bg.jpg" />
+        <meta name="twitter:image:alt" content="Preguntas frecuentes IntegraObra" />
+      </Helmet>
       {/* Hero Section */}
       <div className='relative bg-gradient-to-br from-[#066396] to-[#0578b8] text-white py-16 overflow-hidden'>
         {/* Imagen de fondo */}
@@ -200,8 +225,9 @@ export default function PreguntasFrecuentes() {
               <div className='relative rounded-2xl overflow-hidden shadow-2xl group'>
                 <img 
                   src='/preguntas.webp' 
-                  alt='Soporte al cliente'
+                  alt='Soporte al cliente de IntegraObra, atención personalizada a dudas frecuentes'
                   className='w-full h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-500'
+                  loading='lazy'
                 />
                 <div className='absolute inset-0 bg-gradient-to-t from-[#066396]/60 to-transparent'></div>
                 <div className='absolute bottom-6 left-6 right-6 text-white'>

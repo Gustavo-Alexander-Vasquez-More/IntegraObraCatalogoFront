@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function Plomeria() {
   const servicios = [
@@ -110,6 +111,30 @@ export default function Plomeria() {
 
   return (
     <div className='bg-white'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Servicio de Plomería en Mérida | Reparaciones e Instalaciones | IntegraObra.mx</title>
+        <meta name="description" content="Plomería profesional en Mérida y Yucatán: reparación de fugas, instalaciones hidráulicas, destapado de drenaje, cambio de tuberías, calentadores y mantenimiento. Atención residencial, comercial e industrial. Servicio rápido, garantía y precios justos." />
+        <meta name="keywords" content="plomería Mérida, reparación de fugas, instalaciones hidráulicas, destapado de drenaje, cambio de tuberías, calentadores, mantenimiento de plomería, plomeros profesionales, IntegraObra, Mérida Yucatán, servicio de plomería, México" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://integraobra.mx/servicios/plomeria" />
+        {/* Open Graph */}
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:site_name" content="IntegraObra.mx" />
+        <meta property="og:title" content="Servicio de Plomería en Mérida | Reparaciones e Instalaciones" />
+        <meta property="og:description" content="Plomería profesional en Mérida y Yucatán: reparación de fugas, instalaciones hidráulicas, destapado de drenaje, cambio de tuberías, calentadores y mantenimiento. Atención residencial, comercial e industrial. Servicio rápido, garantía y precios justos." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.mx/servicios/plomeria" />
+        <meta property="og:image" content="https://integraobra.mx/plomeria/banner.webp" />
+        <meta property="og:image:alt" content="Plomeros profesionales en Mérida, IntegraObra" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@integraobra" />
+        <meta name="twitter:title" content="Servicio de Plomería en Mérida | Reparaciones e Instalaciones" />
+        <meta name="twitter:description" content="Plomería profesional en Mérida y Yucatán: reparación de fugas, instalaciones hidráulicas, destapado de drenaje, cambio de tuberías, calentadores y mantenimiento. Atención residencial, comercial e industrial. Servicio rápido, garantía y precios justos." />
+        <meta name="twitter:image" content="https://integraobra.mx/plomeria/banner.webp" />
+        <meta name="twitter:image:alt" content="Plomeros profesionales en Mérida, IntegraObra" />
+      </Helmet>
       {/* Hero Section */}
       <div className='relative bg-gray-900 text-white py-20 overflow-hidden'>
         <div 
@@ -316,8 +341,9 @@ export default function Plomeria() {
             <div className='relative rounded-2xl overflow-hidden shadow-2xl group'>
               <img 
                 src='/plomeria/plomero.webp' 
-                alt='Plomero profesional trabajando'
+                alt='Plomero profesional certificado de IntegraObra trabajando en Mérida, Yucatán'
                 className='w-full h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-500'
+                loading='lazy'
               />
               <div className='absolute inset-0 bg-gradient-to-t from-blue-900/60 to-transparent'></div>
               <div className='absolute bottom-6 left-6 right-6 text-white'>

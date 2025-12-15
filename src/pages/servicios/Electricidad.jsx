@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function Electricidad() {
   const servicios = [
@@ -111,6 +112,30 @@ export default function Electricidad() {
 
   return (
     <div className='bg-white'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Servicios de Electricidad en Mérida | Instalaciones y Reparaciones | IntegraObra.mx</title>
+        <meta name="description" content="Instalaciones eléctricas, reparaciones, tableros, cableado, iluminación y mantenimiento en Mérida y Yucatán. Electricistas certificados, atención residencial, comercial e industrial. Seguridad y calidad garantizada. Cotiza sin compromiso." />
+        <meta name="keywords" content="servicios de electricidad, instalaciones eléctricas, electricistas Mérida, reparación eléctrica, tableros eléctricos, cableado, iluminación LED, mantenimiento eléctrico, IntegraObra, Mérida Yucatán, seguridad eléctrica, México" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://integraobra.mx/servicios/electricidad" />
+        {/* Open Graph */}
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:site_name" content="IntegraObra.mx" />
+        <meta property="og:title" content="Servicios de Electricidad en Mérida | Instalaciones y Reparaciones" />
+        <meta property="og:description" content="Instalaciones eléctricas, reparaciones, tableros, cableado, iluminación y mantenimiento en Mérida y Yucatán. Electricistas certificados, atención residencial, comercial e industrial. Seguridad y calidad garantizada." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.mx/servicios/electricidad" />
+        <meta property="og:image" content="https://integraobra.mx/electricidad/banner.webp" />
+        <meta property="og:image:alt" content="Electricistas certificados en Mérida, IntegraObra" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@integraobra" />
+        <meta name="twitter:title" content="Servicios de Electricidad en Mérida | Instalaciones y Reparaciones" />
+        <meta name="twitter:description" content="Instalaciones eléctricas, reparaciones, tableros, cableado, iluminación y mantenimiento en Mérida y Yucatán. Electricistas certificados, atención residencial, comercial e industrial. Seguridad y calidad garantizada." />
+        <meta name="twitter:image" content="https://integraobra.mx/electricidad/banner.webp" />
+        <meta name="twitter:image:alt" content="Electricistas certificados en Mérida, IntegraObra" />
+      </Helmet>
       {/* Hero Section */}
       <div className='relative bg-gray-900 text-white py-20 overflow-hidden'>
         <div 
@@ -334,8 +359,9 @@ export default function Electricidad() {
             <div className='relative rounded-2xl overflow-hidden shadow-2xl group order-first md:order-last'>
               <img 
                 src='/electricidad/electricista.webp' 
-                alt='Electricista trabajando'
+                alt='Electricista certificado de IntegraObra trabajando en Mérida, Yucatán'
                 className='w-full h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-500'
+                loading='lazy'
               />
               <div className='absolute inset-0 bg-gradient-to-t from-orange-900/60 to-transparent'></div>
               <div className='absolute bottom-6 left-6 right-6 text-white'>

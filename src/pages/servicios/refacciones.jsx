@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function Refacciones() {
 
@@ -45,6 +46,30 @@ export default function Refacciones() {
 
   return (
     <div className='bg-white'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Venta de Refacciones para Maquinaria y Herramientas | IntegraRefacciones.mx</title>
+        <meta name="description" content="Venta de refacciones para maquinaria eléctrica, equipos de combustión, herramientas de jardín y generadores en Mérida y todo México. Stock disponible, envío nacional y asesoría técnica. Encuentra carburadores, bobinas, filtros y más." />
+        <meta name="keywords" content="refacciones maquinaria, repuestos herramientas, refacciones eléctricas, refacciones combustión, carburadores, bobinas, filtros, IntegraRefacciones, IntegraObra, Mérida Yucatán, venta de refacciones, México" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://integraobra.mx/servicios/refacciones" />
+        {/* Open Graph */}
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:site_name" content="IntegraObra.mx" />
+        <meta property="og:title" content="Venta de Refacciones para Maquinaria y Herramientas" />
+        <meta property="og:description" content="Venta de refacciones para maquinaria eléctrica, equipos de combustión, herramientas de jardín y generadores en Mérida y todo México. Stock disponible, envío nacional y asesoría técnica." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.mx/servicios/refacciones" />
+        <meta property="og:image" content="https://integraobra.mx/refacciones/banner.webp" />
+        <meta property="og:image:alt" content="Refacciones para maquinaria y herramientas IntegraObra" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@integraobra" />
+        <meta name="twitter:title" content="Venta de Refacciones para Maquinaria y Herramientas" />
+        <meta name="twitter:description" content="Venta de refacciones para maquinaria eléctrica, equipos de combustión, herramientas de jardín y generadores en Mérida y todo México. Stock disponible, envío nacional y asesoría técnica." />
+        <meta name="twitter:image" content="https://integraobra.mx/refacciones/banner.webp" />
+        <meta name="twitter:image:alt" content="Refacciones para maquinaria y herramientas IntegraObra" />
+      </Helmet>
       {/* Hero Section */}
       <div className='relative bg-gray-900 text-white py-20 overflow-hidden'>
         <div 

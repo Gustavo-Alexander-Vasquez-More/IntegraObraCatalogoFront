@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function AreasVerdes() {
   const servicios = [
@@ -117,6 +118,30 @@ export default function AreasVerdes() {
 
   return (
     <div className='bg-white'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Mantenimiento de Áreas Verdes en Mérida | Jardinería Profesional | IntegraObra.mx</title>
+        <meta name="description" content="Servicio profesional de mantenimiento de áreas verdes en Mérida y Yucatán: poda, deshierbe, recorte de césped, fertilización, control de plagas, sistemas de riego y más. Jardineros expertos y resultados garantizados. ¡Cotiza sin compromiso!" />
+        <meta name="keywords" content="mantenimiento de áreas verdes, jardinería Mérida, poda de árboles, recorte de césped, deshierbe, fertilización, control de plagas, sistemas de riego, jardineros profesionales, IntegraObra, servicios de jardinería, Mérida Yucatán, México" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://integraobra.mx/servicios/areas-verdes" />
+        {/* Open Graph */}
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:site_name" content="IntegraObra.mx" />
+        <meta property="og:title" content="Mantenimiento de Áreas Verdes en Mérida | Jardinería Profesional" />
+        <meta property="og:description" content="Servicio profesional de mantenimiento de áreas verdes en Mérida y Yucatán: poda, deshierbe, recorte de césped, fertilización, control de plagas, sistemas de riego y más. Jardineros expertos y resultados garantizados." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.mx/servicios/areas-verdes" />
+        <meta property="og:image" content="https://integraobra.mx/areasVerdes/jardineria.webp" />
+        <meta property="og:image:alt" content="Jardinería profesional en Mérida, áreas verdes IntegraObra" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@integraobra" />
+        <meta name="twitter:title" content="Mantenimiento de Áreas Verdes en Mérida | Jardinería Profesional" />
+        <meta name="twitter:description" content="Servicio profesional de mantenimiento de áreas verdes en Mérida y Yucatán: poda, deshierbe, recorte de césped, fertilización, control de plagas, sistemas de riego y más. Jardineros expertos y resultados garantizados." />
+        <meta name="twitter:image" content="https://integraobra.mx/areasVerdes/jardineria.webp" />
+        <meta name="twitter:image:alt" content="Jardinería profesional en Mérida, áreas verdes IntegraObra" />
+      </Helmet>
       {/* Hero Section */}
       <div className='relative bg-gradient-to-br from-green-100 to-green-100 text-white py-20 overflow-hidden'>
         <div 
@@ -300,8 +325,9 @@ export default function AreasVerdes() {
             <div className='relative rounded-2xl overflow-hidden shadow-2xl group'>
               <img 
                 src='/areasVerdes/trabajando.webp' 
-                alt='Jardín con mantenimiento profesional'
+                alt='Jardineros profesionales de IntegraObra trabajando en Mérida, Yucatán'
                 className='w-full h-[500px] object-cover transform group-hover:scale-105 transition-transform duration-500'
+                loading='lazy'
               />
               <div className='absolute inset-0 bg-gradient-to-t from-green-900/60 to-transparent'></div>
               <div className='absolute bottom-6 left-6 right-6 text-white'>

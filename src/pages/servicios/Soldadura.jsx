@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function Soldadura() {
   const servicios = [
@@ -109,7 +110,26 @@ export default function Soldadura() {
   ]
 
   return (
-    <div className='bg-white'>
+    <>
+      <Helmet>
+        <title>Servicio de Soldadura para Construcción en Monterrey | IntegraObra</title>
+        <meta name="description" content="Servicio profesional de soldadura en Monterrey: estructuras metálicas, vigas, columnas, marcos, portones y más. Soldadores certificados, calidad garantizada y soluciones a medida para tu obra. ¡Cotiza tu proyecto!" />
+        <meta name="keywords" content="soldadura Monterrey, soldadura construcción, estructuras metálicas Monterrey, soldadores certificados, soldadura industrial Monterrey, IntegraObra" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://integraobra.com/servicios/soldadura" />
+        {/* Open Graph */}
+        <meta property="og:title" content="Servicio de Soldadura para Construcción en Monterrey | IntegraObra" />
+        <meta property="og:description" content="Servicio profesional de soldadura: estructuras metálicas, vigas, columnas, marcos, portones y más. Soldadores certificados, calidad garantizada y soluciones a medida." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.com/servicios/soldadura" />
+        <meta property="og:image" content="https://integraobra.com/soldadura/soldador.webp" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Servicio de Soldadura para Construcción en Monterrey | IntegraObra" />
+        <meta name="twitter:description" content="Servicio profesional de soldadura: estructuras metálicas, vigas, columnas, marcos, portones y más. Soldadores certificados, calidad garantizada y soluciones a medida." />
+        <meta name="twitter:image" content="https://integraobra.com/soldadura/soldador.webp" />
+      </Helmet>
+      <div className='bg-white'>
       {/* Hero Section */}
       <div className='relative bg-gray-900 text-white py-20 overflow-hidden'>
         <div 
@@ -422,5 +442,5 @@ export default function Soldadura() {
         </div>
       </div>
     </div>
-  )
-}
+    </>
+)}

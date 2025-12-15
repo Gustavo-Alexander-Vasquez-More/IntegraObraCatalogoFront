@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function TablarocaEmpastado() {
   const servicios = [
@@ -110,7 +111,26 @@ export default function TablarocaEmpastado() {
   ]
 
   return (
-    <div className='bg-white'>
+    <>
+      <Helmet>
+        <title>Tablaroca y Empastado para Construcción en Monterrey | IntegraObra</title>
+        <meta name="description" content="Instalación profesional de tablaroca y empastado en Monterrey: muros, plafones, acabados lisos, estructura metálica y más. Acabados perfectos, instalación rápida y materiales de calidad. ¡Cotiza tu proyecto!" />
+        <meta name="keywords" content="tablaroca Monterrey, empastado Monterrey, muros de tablaroca, plafones Monterrey, acabados lisos Monterrey, instalación tablaroca Monterrey, IntegraObra" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://integraobra.com/servicios/tablaroca-empastado" />
+        {/* Open Graph */}
+        <meta property="og:title" content="Tablaroca y Empastado para Construcción en Monterrey | IntegraObra" />
+        <meta property="og:description" content="Instalación profesional de tablaroca y empastado: muros, plafones, acabados lisos, estructura metálica y más. Acabados perfectos, instalación rápida y materiales de calidad." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.com/servicios/tablaroca-empastado" />
+        <meta property="og:image" content="https://integraobra.com/tablaroca/banner.webp" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Tablaroca y Empastado para Construcción en Monterrey | IntegraObra" />
+        <meta name="twitter:description" content="Instalación profesional de tablaroca y empastado: muros, plafones, acabados lisos, estructura metálica y más. Acabados perfectos, instalación rápida y materiales de calidad." />
+        <meta name="twitter:image" content="https://integraobra.com/tablaroca/banner.webp" />
+      </Helmet>
+      <div className='bg-white'>
       {/* Hero Section */}
       <div className='relative bg-gradient-to-br from-slate-700 to-slate-800 text-white py-20 overflow-hidden'>
         <div 
@@ -422,5 +442,5 @@ export default function TablarocaEmpastado() {
         </div>
       </div>
     </div>
-  )
-}
+    </>
+)}

@@ -1,8 +1,32 @@
 import React from 'react'
-
+import { Helmet } from 'react-helmet'
 export default function SobreNosotros() {
   return (
     <div className='bg-white'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Sobre Nosotros | IntegraObra.mx - Historia, Misión, Visión y Valores</title>
+        <meta name="description" content="Descubre la historia, misión, visión y valores de IntegraObra.mx. Comprometidos con la excelencia, innovación y el crecimiento de Mérida y la región. Servicios profesionales, maquinaria y refacciones de calidad en Yucatán." />
+        <meta name="keywords" content="Sobre Nosotros, IntegraObra, Mérida, construcción, servicios profesionales, maquinaria, refacciones, misión, visión, valores, empresa, Yucatán, México" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <link rel="canonical" href="https://integraobra.mx/empresa/sobre-nosotros" />
+        {/* Open Graph */}
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:site_name" content="IntegraObra.mx" />
+        <meta property="og:title" content="Sobre Nosotros | IntegraObra.mx" />
+        <meta property="og:description" content="Historia, misión, visión y valores de IntegraObra.mx. Compromiso con la excelencia, innovación y crecimiento en Mérida y la región." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.mx/empresa/sobre-nosotros" />
+        <meta property="og:image" content="https://integraobra.mx/nosotros.webp" />
+        <meta property="og:image:alt" content="Equipo IntegraObra en Mérida" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@integraobra" />
+        <meta name="twitter:title" content="Sobre Nosotros | IntegraObra.mx" />
+        <meta name="twitter:description" content="Historia, misión, visión y valores de IntegraObra.mx. Servicios profesionales y compromiso en Mérida y Yucatán." />
+        <meta name="twitter:image" content="https://integraobra.mx/nosotros.webp" />
+        <meta name="twitter:image:alt" content="Equipo IntegraObra en Mérida" />
+      </Helmet>
       {/* Hero Section */}
       <div className="relative flex items-center justify-center overflow-hidden">
         {/* Imagen de fondo */}
@@ -32,8 +56,9 @@ export default function SobreNosotros() {
               <div className='relative rounded-2xl overflow-hidden shadow-2xl group'>
                 <img 
                   src='/merida.webp' 
-                  alt='Construcción en Mérida'
+                  alt='Construcción en Mérida, Yucatán, crecimiento de la región'
                   className='w-full h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-500'
+                  loading='lazy'
                 />
                 <div className='absolute inset-0 bg-gradient-to-t from-[#066396]/50 to-transparent'></div>
                 <div className='absolute bottom-6 left-6 right-6'>
@@ -122,9 +147,10 @@ export default function SobreNosotros() {
             <div>
               <div className='relative rounded-2xl overflow-hidden shadow-2xl group'>
                 <img 
-                  src='/trabajo.jpg' 
-                  alt='Equipo IntegraObra'
+                  src='/trabajando.webp' 
+                  alt='Equipo IntegraObra trabajando en Mérida, Yucatán'
                   className='w-full h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-500'
+                  loading='lazy'
                 />
                 <div className='absolute inset-0 bg-gradient-to-t from-[#F48437]/50 to-transparent'></div>
               </div>

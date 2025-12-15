@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function RentaMaquinariaLigera() {
   const equipos = [
@@ -119,7 +120,26 @@ export default function RentaMaquinariaLigera() {
   ]
 
   return (
-    <div className='bg-white'>
+    <>
+      <Helmet>
+        <title>Renta de Maquinaria Ligera para Construcción en Monterrey | IntegraObra</title>
+        <meta name="description" content="Renta de maquinaria ligera en Monterrey: demoledores, revolvedoras, vibradoras, compactadoras, andamios y más. Equipos revisados, limpios y listos para tu obra. Cotiza fácil y rápido con IntegraObra." />
+        <meta name="keywords" content="renta maquinaria ligera Monterrey, renta de equipos construcción, demoledores, revolvedoras, vibradoras, compactadoras, andamios, herramientas obra, IntegraObra" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://integraobra.com/servicios/renta-maquinaria-ligera" />
+        {/* Open Graph */}
+        <meta property="og:title" content="Renta de Maquinaria Ligera para Construcción en Monterrey | IntegraObra" />
+        <meta property="og:description" content="Renta de maquinaria ligera: demoledores, revolvedoras, vibradoras, compactadoras, andamios y más. Equipos revisados y listos para tu obra. Cotiza fácil y rápido." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://integraobra.com/servicios/renta-maquinaria-ligera" />
+        <meta property="og:image" content="https://integraobra.com/maquinaria/obrero.webp" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Renta de Maquinaria Ligera para Construcción en Monterrey | IntegraObra" />
+        <meta name="twitter:description" content="Renta de maquinaria ligera: demoledores, revolvedoras, vibradoras, compactadoras, andamios y más. Equipos revisados y listos para tu obra. Cotiza fácil y rápido." />
+        <meta name="twitter:image" content="https://integraobra.com/maquinaria/obrero.webp" />
+      </Helmet>
+      <div className='bg-white'>
       {/* Hero Section */}
       <div className='relative bg-gray-900 text-white py-20 overflow-hidden'>
         <div 
@@ -439,5 +459,6 @@ export default function RentaMaquinariaLigera() {
         </div>
       </div>
     </div>
-  )
-}
+    </>
+
+)}
