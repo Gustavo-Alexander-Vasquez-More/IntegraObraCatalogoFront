@@ -9,14 +9,16 @@ export default function FormCotizacion() {
   })
 
   const servicios = [
-    'Renta de equipos',
-    'Venta de refacciones',
     'Electricidad',
-    'Instalación de climas',
-    'Tablaroca y empastado',
     'Soldadura',
     'Cableado estructurado',
-    'Mantenimiento de áreas verdes'
+    'Plomería',
+    'Mantenimiento de áreas verdes',
+    'Instalación y mantenimiento de climas',
+    'Tablaroca y empastado',
+    'Renta de maquinaria ligera',
+    'Venta de refacciones',
+    'Otros'
   ]
 
   const handleChange = (e) => {
@@ -37,7 +39,7 @@ export default function FormCotizacion() {
       `*Mensaje:*%0A${formData.mensaje}`
     
     // Número de WhatsApp (reemplaza con tu número)
-    const numeroWhatsApp = '5215512345678' // Formato: 52 + código de área + número
+    const numeroWhatsApp = '5219995210167' // Formato: 52 + código de área + número
     
     // Abrir WhatsApp
     window.open(`https://wa.me/${numeroWhatsApp}?text=${mensaje}`, '_blank')

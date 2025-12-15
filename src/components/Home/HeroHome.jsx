@@ -2,12 +2,15 @@ import React from 'react'
 
 export default function HeroHome() {
   return (
-    <div className='relative bg-gradient-to-br from-[#066396] via-[#0578b8] to-[#066396] text-white overflow-hidden'>
-      {/* Patrón de fondo decorativo */}
-      <div className='absolute inset-0 opacity-10'>
-        <div className='absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl'></div>
-        <div className='absolute bottom-20 right-10 w-96 h-96 bg-[#F48437] rounded-full blur-3xl'></div>
-      </div>
+    <div className='relative bg-gray-900 text-white overflow-hidden'>
+      {/* Imagen de fondo */}
+      <div 
+        className='absolute inset-0 bg-cover bg-center bg-no-repeat'
+        style={{ backgroundImage: "url('/hero.webp')" }}
+      ></div>
+      
+      {/* Overlay oscuro */}
+      <div className='absolute inset-0 bg-black/50'></div>
 
       {/* Contenido Principal */}
       <div className='relative container mx-auto px-4 py-20 md:py-32'>
@@ -30,18 +33,6 @@ export default function HeroHome() {
               Tenemos de experiencia transformando proyectos en obras maestras. 
               Calidad, compromiso y excelencia en cada detalle.
             </p>
-
-            {/* Estadísticas */}
-            <div className='grid grid-cols-3 gap-6 py-6'>
-              <div className='text-center'>
-                <div className='text-4xl font-bold text-[#F48437]'>500+</div>
-                <div className='text-sm text-gray-200'>Proyectos</div>
-              </div>
-              <div className='text-center'>
-                <div className='text-4xl font-bold text-[#F48437]'>98%</div>
-                <div className='text-sm text-gray-200'>Satisfacción</div>
-              </div>
-            </div>
 
             {/* Botones de Acción */}
             <div className='flex flex-col sm:flex-row gap-4'>
@@ -112,15 +103,6 @@ export default function HeroHome() {
                     </div>
                   </div>
                 </div>
-              </div>
-
-              {/* Floating cards decorativas */}
-              <div className='absolute -top-6 -right-6 bg-[#F48437] px-6 py-3 rounded-lg shadow-xl animate-bounce'>
-                <div className='text-sm font-semibold'>🎯 100% Confiable</div>
-              </div>
-              
-              <div className='absolute -bottom-6 -left-6 bg-white text-[#066396] px-6 py-3 rounded-lg shadow-xl'>
-                <div className='text-sm font-semibold'>⚡ Respuesta rápida</div>
               </div>
             </div>
           </div>

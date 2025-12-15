@@ -1,4 +1,6 @@
 import React from 'react'
+import Carousel from 'react-multi-carousel'
+import 'react-multi-carousel/lib/styles.css'
 
 export default function Marcas() {
   // Array de marcas - reemplaza las URLs con tus logos reales
@@ -15,6 +17,25 @@ export default function Marcas() {
     { id: 10, nombre: "vecker", logo: "/marcas/vekcer.png" },
   ]
 
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 1536 },
+      items: 6
+    },
+    desktop: {
+      breakpoint: { max: 1536, min: 1024 },
+      items: 5
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 640 },
+      items: 3
+    },
+    mobile: {
+      breakpoint: { max: 640, min: 0 },
+      items: 2
+    }
+  }
+
   return (
     <div className='bg-gradient-to-b from-gray-50 to-gray-100 py-16'>
       <div className='container mx-auto px-4'>
@@ -29,63 +50,33 @@ export default function Marcas() {
         </div>
 
         {/* Carousel Container */}
-        <div className='relative overflow-hidden'>
-          {/* Animate infinite scroll */}
-          <div className='flex gap-8 animate-scroll'>
-            {/* Primera iteración de logos */}
-            {marcas.map((marca) => (
-              <div
-                key={`first-${marca.id}`}
-                className='flex-shrink-0 w-[200px] h-[120px] bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 flex items-center justify-center p-4 grayscale hover:grayscale-0 group'
-              >
-                <img
-                  src={marca.logo}
-                  alt={marca.nombre}
-                  className='max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-110'
-                />
-              </div>
-            ))}
-            {/* Segunda iteración para loop infinito */}
-            {marcas.map((marca) => (
-              <div
-                key={`second-${marca.id}`}
-                className='flex-shrink-0 w-[200px] h-[120px] bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 flex items-center justify-center p-4 grayscale hover:grayscale-0 group'
-              >
-                <img
-                  src={marca.logo}
-                  alt={marca.nombre}
-                  className='max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-110'
-                />
-              </div>
-            ))}
-          </div>
-
-          {/* Gradientes laterales para efecto fade */}
-          <div className='absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent pointer-events-none'></div>
-          <div className='absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent pointer-events-none'></div>
-        </div>
-
+        <Carousel
+          responsive={responsive}
+          autoPlay={true}
+          autoPlaySpeed={3000}
+          infinite={true}
+          arrows={false}
+          swipeable={true}
+          draggable={true}
+          showDots={false}
+          removeArrowOnDeviceType={['tablet', 'mobile']}
+          containerClass='carousel-container'
+          itemClass='px-4'
+        >
+          {marcas.map((marca) => (
+            <div
+              key={marca.id}
+              className='w-full h-[120px] bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 flex items-center justify-center p-4 grayscale hover:grayscale-0 group'
+            >
+              <img
+                src={marca.logo}
+                alt={marca.nombre}
+                className='max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-110'
+              />
+            </div>
+          ))}
+        </Carousel>
       </div>
-
-      {/* CSS para la animación - agregar al index.css o como style global */}
-      <style jsx>{`
-        @keyframes scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-        
-        .animate-scroll {
-          animation: scroll 50s linear infinite;
-        }
-        
-        .animate-scroll:hover {
-          animation-play-state: paused;
-        }
-      `}</style>
     </div>
   )
 }

@@ -11,7 +11,10 @@ import PoliticaPrivavidad from "./pages/empresa/PoliticaPrivavidad.jsx";
 import SobreNosotros from "./pages/empresa/SobreNosotros.jsx";
 import VentaRefacciones from "./pages/equipos/VentaRefacciones.jsx";
 import RentaEquipos from "./pages/equipos/RentaEquipos.jsx";
+import MantoClimas from "./pages/servicios/MantoClimas.jsx"
 import Contacto from "./pages/Contacto.jsx";
+import RentaMaquinariaLigera from "./pages/servicios/rentaMaquinariaLigera.jsx";
+import Refacciones from "./pages/servicios/refacciones.jsx";
 
 function Router() {
   return (
@@ -22,12 +25,15 @@ function Router() {
       <Route path="/servicios/electricidad" element={<Electricidad/>} />
       <Route path="/servicios/plomeria" element={<Plomeria/>} />
       <Route path="/servicios/soldadura" element={<Soldadura/>} />
+      <Route path="/servicios/instalacion-manto-climas" element={<MantoClimas/>} />
       <Route path="/servicios/tablaroca-empastado" element={<TablarocaEmpastado/>} />
       <Route path="/empresa/sobre-nosotros" element={<SobreNosotros/>} />
       <Route path="/empresa/politica-privacidad" element={<PoliticaPrivavidad/>} />
       <Route path="/empresa/preguntas-frecuentes" element={<PreguntasFrecuentes/>} />
-      <Route path="/equipos/venta-refacciones" element={<VentaRefacciones/>} />
-      <Route path="/equipos/renta-equipos" element={<RentaEquipos/>} />
+      <Route path="/servicios/renta-maquinaria-ligera" element={<RentaMaquinariaLigera/>} />
+      <Route path="/servicios/refacciones" element={<Refacciones/>} />
+      {/* <Route path="/equipos/venta-refacciones" element={<VentaRefacciones/>} />
+      <Route path="/equipos/renta-equipos" element={<RentaEquipos/>} /> */}
       <Route path="/contacto" element={<Contacto/>} />
     </Routes>
   );

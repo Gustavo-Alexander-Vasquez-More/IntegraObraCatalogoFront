@@ -6,9 +6,12 @@ const MenuBox = () => {
       <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/areas-verdes">Mantenimiento de áreas verdes</a>
       <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/instalacion-manto-climas">Instalación de manto y climas</a>
       <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/tablaroca-empastado">Tablaroca y empastado</a>
-       <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/electricidad">Electricidad</a>
-        <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/soldadura">Soldadura</a>
-         <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/cableado-estructurado">Cableado y estructurado</a>
+      <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/electricidad">Electricidad</a>
+      <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/soldadura">Soldadura</a>
+      <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/plomeria">Plomería</a>
+      <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/cableado-estructurado">Cableado y estructurado</a>
+      <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/renta-maquinaria-ligera">Renta de maquinaria ligera</a>
+      <a className='block text-white font-semibold py-2 hover:bg-[#6b6c70] px-3 rounded' href="/servicios/refacciones">Refacciones</a>
     </div>
   );
 };

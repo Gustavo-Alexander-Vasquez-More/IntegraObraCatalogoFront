@@ -38,7 +38,7 @@ export default function PorqueElegirnos() {
   ]
 
   return (
-    <div className='bg-gradient-to-b from-gray-50 to-white py-20'>
+    <div className='bg-gradient-to-b from-gray-50 to-white py-5'>
       <div className='container mx-auto px-4'>
         {/* Header */}
         <div className='text-center mb-16'>
