@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import HeroHome from '../components/Home/HeroHome'
 import Testimonios from '../components/Home/Testimonios'
@@ -7,6 +7,9 @@ import Cards from '../components/Home/Cards'
 import PorqueElegirnos from '../components/Home/PorqueElegirnos'
 import FormCotizacion from '../components/Home/FormCotizacion'
 export default function Index() {
+  useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
   return (
     <>
       <Helmet>

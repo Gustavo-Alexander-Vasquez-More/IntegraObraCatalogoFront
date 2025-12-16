@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 
 export default function RentaMaquinariaLigera() {
+  useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
   const equipos = [
     {
       titulo: 'Demoledores',

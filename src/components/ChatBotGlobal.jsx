@@ -7,23 +7,27 @@ export default function ChatBotGlobal() {
   const faqs = [
     {
       pregunta: "¿Qué servicios ofrece IntegraObra?",
-      respuesta: "IntegraObra ofrece servicios integrales de construcción que incluyen: renta de maquinaria ligera (demoledores, revolvedoras, vibradoras, andamios), instalaciones eléctricas, instalación de climas, tablaroca y empastado, soldadura, cableado estructurado y mantenimiento de áreas verdes. Además, contamos con IntegraRefacciones para venta de repuestos."
+      respuesta: "IntegraObra brinda servicios de renta de maquinaria ligera, reparación de equipos eléctricos y carburados, venta de refacciones y ejecución integral de proyectos, con experiencia y responsabilidad."
     },
     {
       pregunta: "¿En qué zonas brindan servicio?",
-      respuesta: "Brindamos servicio principalmente en Mérida, Yucatán y toda la región. Para servicios especiales o proyectos grandes, podemos evaluar la posibilidad de atender otras zonas. Contacta con nosotros para más información sobre cobertura."
+      respuesta: "Ofrecemos servicio en Mérida y toda la región, así como atención a servicios especiales y proyectos en toda la República Mexicana, previa evaluación. Contáctenos para más información."
+    },
+    {
+      pregunta: "¿Como funciona el servicio de construcccion?",
+      respuesta: "Evaluamos tu proyecto, te presentamos una propuesta clara y lo ejecutamos con personal capacitado, maquinaria adecuada y supervisión constante, garantizando calidad y responsabilidad."
     },
     {
       pregunta: "¿Cómo funciona la renta de maquinaria?",
-      respuesta: "Contamos con maquinaria ligera lista para rentar. Todos nuestros equipos están revisados y garantizados por escrito. El proceso es simple: contactas con nosotros, defines el equipo y tiempo de renta, firmamos el contrato con garantía, y entregamos el equipo listo para usar."
+      respuesta: "Disponemos de maquinaria ligera en renta, con equipos revisados y garantizados. El proceso de contratación es sencillo y transparente: identificación oficial vigente (INE) con domicilio en Mérida, Yucatán, firma de contrato y pago conforme al periodo de renta solicitado."
     },
     {
       pregunta: "¿Los equipos tienen garantía?",
-      respuesta: "Sí, todos nuestros equipos cuentan con garantía por escrito. Nuestros técnicos del centro de servicio revisan cada equipo antes de entregarlo. Si presentan algún problema durante la renta, nos hacemos responsables según los términos del contrato."
+      respuesta: "Sí, todos nuestros equipos en renta se encuentran en buenas condiciones. Son revisados, mantenidos y probados antes de cada entrega para garantizar su correcto funcionamiento y desempeño en obra. La garantía no aplica en equipos arrendados que no sean utilizados de manera correcta."
     },
     {
       pregunta: "¿Qué tipo de refacciones manejan?",
-      respuesta: "En IntegraRefacciones manejamos repuestos para maquinaria eléctrica y de combustión. Nuestro inventario incluye carburadores, bobinas, cebadores, filtros, bujías y más. Contamos con stock disponible y realizamos envíos a toda la República Mexicana."
+      respuesta: "Manejamos un amplio surtido de refacciones para equipos eléctricos y carburados, como campos, filtros, bujías, cebadores, bobinas y carburadores, entre muchas otras, para que el trabajo no se detenga."
     },
     {
       pregunta: "¿Hacen envíos a otros estados?",
@@ -31,7 +35,7 @@ export default function ChatBotGlobal() {
     },
     {
       pregunta: "¿Qué garantía ofrecen en sus servicios?",
-      respuesta: "Todos nuestros servicios están respaldados con garantía por escrito. En nuestro centro de servicio, es una norma devolver las piezas dañadas de tus equipos; de lo contrario, el servicio es completamente gratuito. Esto refleja nuestro compromiso con la transparencia y calidad."
+      respuesta: "Nuestros servicios de reparación cuentan con garantía por escrito. Como parte de nuestras políticas de transparencia, en el centro de servicio se entregan las piezas dañadas reemplazadas; en caso contrario, el servicio no tendrá costo. Este procedimiento respalda nuestro compromiso con la calidad y la confianza de nuestros clientes."
     },
     {
       pregunta: "¿Cuál es su política de precios?",
@@ -43,7 +47,7 @@ export default function ChatBotGlobal() {
     },
     {
       pregunta: "¿Cuál es su horario de atención?",
-      respuesta: "Nuestro horario de atención es: Lunes a Viernes de 8:00 AM a 6:00 PM, y Sábados de 9:00 AM a 2:00 PM. Para emergencias o consultas urgentes, puedes contactarnos por WhatsApp donde respondemos lo más pronto posible."
+      respuesta: "Nuestro horario de atención es: Lunes a Viernes de 8:00 AM a 6:00 PM, y Sábados de 8:00 AM a 3:00 PM. Para emergencias o consultas urgentes, puedes contactarnos por WhatsApp donde respondemos lo más pronto posible."
     }
   ];
 
@@ -253,7 +257,14 @@ export default function ChatBotGlobal() {
               // MENÚ PRINCIPAL
               <>
                 <div className="mb-2 text-sm text-gray-700 font-semibold">¿En qué te puedo ayudar?</div>
-                <div className="flex flex-col gap-2">
+                <div
+                  className="flex flex-col gap-2"
+                  style={{
+                    maxHeight: '45vh', // Altura máxima en viewport height
+                    overflowY: 'auto',
+                    WebkitOverflowScrolling: 'touch',
+                  }}
+                >
                   {faqs.map((faq, i) => (
                     <button
                       key={i}

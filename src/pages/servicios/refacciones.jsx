@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 
 export default function Refacciones() {
-
+useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const beneficios = [
     {
       titulo: 'Calidad Garantizada',

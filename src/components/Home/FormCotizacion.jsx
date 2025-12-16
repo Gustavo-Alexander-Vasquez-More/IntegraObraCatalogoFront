@@ -9,16 +9,18 @@ export default function FormCotizacion() {
   })
 
   const servicios = [
-    'Electricidad',
-    'Soldadura',
-    'Cableado estructurado',
-    'Plomería',
-    'Mantenimiento de áreas verdes',
-    'Instalación y mantenimiento de climas',
-    'Tablaroca y empastado',
-    'Renta de maquinaria ligera',
-    'Venta de refacciones',
-    'Otros'
+    'Renta de maquinaria.',
+    'Centro de servicio.',
+    'Refaccionamiento.',
+    'Obra Civil.',
+    'Electricidad.',
+    'Refrigeración.',
+    'Plomería.',
+    'Herrería.',
+    'Acabados.',
+    'Cableado Estructurado.',
+    'Enlaces PTP.',
+    'Mtto. Areas Verdes.'
   ]
 
   const handleChange = (e) => {

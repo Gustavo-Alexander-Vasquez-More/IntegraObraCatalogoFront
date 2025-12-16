@@ -107,10 +107,10 @@ export default function SobreNosotros() {
               </h2>
               <div className='space-y-4 text-gray-600 leading-relaxed text-lg mb-8'>
                 <p>
-                  Nuestro objetivo es brindar a nuestros clientes <strong className='text-[#066396]'>servicios profesionales</strong>, <strong className='text-[#F48437]'>maquinaria de calidad</strong> y <strong className='text-[#066396]'>refacciones confiables</strong>, siempre respaldados con garantía por escrito.
+                  Nuestro objetivo es brindar a nuestros clientes <strong className='text-[#066396]'>productos y servicios profesionales</strong>, siempre respaldados con garantía por escrito.
                 </p>
                 <p>
-                  De esta manera, cada cliente tiene la seguridad de recibir un servicio transparente, responsable y orientado a resolver sus necesidades con eficiencia y confianza.
+                  De esta manera, cada cliente tiene la seguridad de que todos nuestros servicios son 100 % transparentes y están siempre orientados a resolver sus necesidades con experiencia, eficiencia y confianza.
                 </p>
               </div>
 

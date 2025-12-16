@@ -7,28 +7,21 @@ export default function Testimonios() {
       nombre: "Javier Alonso",
       foto: "/testimonios/javierAlonso.png",
       estrellas: 5,
-      comentario: "Excelente servicio lleve mi podadora y quedo muy bien 100% recomendado."
+      comentario: "Super atentos y super amables, me dieron un diagnostico bastante sincero y tienen una amplia cantidad de refacciones no tengo ninguna queja, ademas te dan garantía."
     },
     {
       id: 2,
-      nombre: "Maonrri Bladimir",
-      foto: "/testimonios/maonri.png",
+      nombre: "Alex More",
+      foto: "https://lh3.googleusercontent.com/a/ACg8ocI6V5TH9PGRgBpUt29GAhIoWEYeLpVzL-kzz-KKNSJWhKLQXA=w72-h72-p-rp-mo-br100",
       estrellas: 5,
-      comentario: "Muy buen servicio, tiene gran variedad de herramientas y el servicio de mantenimiento también es muy bueno."
+      comentario: "Dejé mis equipos en el centro de servicio y los dejaron de 10!!..la atención muy buena, super amables!"
     },
     {
       id: 3,
-      nombre: "Adolfo Vcnt",
-      foto: "/testimonios/adolfo.png",
+      nombre: "Alan perez",
+      foto: "https://lh3.googleusercontent.com/a/ACg8ocJ6LrRqyMlV5MuFDYHp_n6aeVX0sbynTjnwV_A476Y82V54byI=w72-h72-p-rp-mo-br100",
       estrellas: 5,
-      comentario: "100% Recomendable la mayoría de los equipos son nuevos,. ✅"
-    },
-    {
-      id: 4,
-      nombre: "Fernando ley",
-      foto: "/testimonios/fernando.png",
-      estrellas: 5,
-      comentario: "Exelente Siempre pendientes y atentos"
+      comentario: "La amplia variedad de maquinaria ligera que se consigue acá es impresionante.. lo que mas destaco es la atencion del gerente y el profesionalismo con el que te asesora para poder lograr lo que uno busca."
     }
   ]
 

@@ -13,61 +13,67 @@ export default function PreguntasFrecuentes() {
       id: 1,
       categoria: "Servicios Generales",
       pregunta: "¿Qué servicios ofrece IntegraObra?",
-      respuesta: "IntegraObra ofrece servicios integrales de construcción que incluyen: renta de maquinaria ligera (demoledores, revolvedoras, vibradoras, andamios), instalaciones eléctricas, instalación de climas, tablaroca y empastado, soldadura, cableado estructurado y mantenimiento de áreas verdes. Además, contamos con IntegraRefacciones para venta de repuestos."
+      respuesta: "IntegraObra brinda servicios de renta de maquinaria ligera, reparación de equipos eléctricos y carburados, venta de refacciones y ejecución integral de proyectos, con experiencia y responsabilidad."
     },
     {
       id: 2,
       categoria: "Servicios Generales",
       pregunta: "¿En qué zonas brindan servicio?",
-      respuesta: "Brindamos servicio principalmente en Mérida, Yucatán y toda la región. Para servicios especiales o proyectos grandes, podemos evaluar la posibilidad de atender otras zonas. Contacta con nosotros para más información sobre cobertura."
+      respuesta: "Ofrecemos servicio en Mérida y toda la región, así como atención a servicios especiales y proyectos en toda la República Mexicana, previa evaluación. Contáctenos para más información."
     },
     {
       id: 3,
-      categoria: "Renta de Equipos",
-      pregunta: "¿Cómo funciona la renta de maquinaria?",
-      respuesta: "Contamos con maquinaria ligera lista para rentar. Todos nuestros equipos están revisados y garantizados por escrito. El proceso es simple: contactas con nosotros, defines el equipo y tiempo de renta, firmamos el contrato con garantía, y entregamos el equipo listo para usar."
+      categoria: "Servicios Generales",
+      pregunta: "¿Como funciona el servicio de construcccion?",
+      respuesta: "Evaluamos tu proyecto, te presentamos una propuesta clara y lo ejecutamos con personal capacitado, maquinaria adecuada y supervisión constante, garantizando calidad y responsabilidad."
     },
     {
       id: 4,
       categoria: "Renta de Equipos",
-      pregunta: "¿Los equipos tienen garantía?",
-      respuesta: "Sí, todos nuestros equipos cuentan con garantía por escrito. Nuestros técnicos del centro de servicio revisan cada equipo antes de entregarlo. Si presentan algún problema durante la renta, nos hacemos responsables según los términos del contrato."
+      pregunta: "¿Cómo funciona la renta de maquinaria?",
+      respuesta: "Disponemos de maquinaria ligera en renta, con equipos revisados y garantizados. El proceso de contratación es sencillo y transparente: identificación oficial vigente (INE) con domicilio en Mérida, Yucatán, firma de contrato y pago conforme al periodo de renta solicitado."
     },
     {
       id: 5,
-      categoria: "Refacciones",
-      pregunta: "¿Qué tipo de refacciones manejan?",
-      respuesta: "En IntegraRefacciones manejamos repuestos para maquinaria eléctrica y de combustión. Nuestro inventario incluye carburadores, bobinas, cebadores, filtros, bujías y más. Contamos con stock disponible y realizamos envíos a toda la República Mexicana."
+      categoria: "Renta de Equipos",
+      pregunta: "¿Los equipos tienen garantía?",
+      respuesta: "Sí, todos nuestros equipos en renta se encuentran en buenas condiciones. Son revisados, mantenidos y probados antes de cada entrega para garantizar su correcto funcionamiento y desempeño en obra. La garantía no aplica en equipos arrendados que no sean utilizados de manera correcta."
     },
     {
       id: 6,
+      categoria: "Refacciones",
+      pregunta: "¿Qué tipo de refacciones manejan?",
+      respuesta: "Manejamos un amplio surtido de refacciones para equipos eléctricos y carburados, como campos, filtros, bujías, cebadores, bobinas y carburadores, entre muchas otras, para que el trabajo no se detenga."
+    },
+    {
+      id: 7,
       categoria: "Refacciones",
       pregunta: "¿Hacen envíos a otros estados?",
       respuesta: "Sí, realizamos envíos a toda la República Mexicana. Los tiempos de entrega varían según la ubicación. Contáctanos para cotizar el envío a tu localidad y conocer los tiempos estimados de entrega."
     },
     {
-      id: 7,
+      id: 8,
       categoria: "Garantías y Políticas",
       pregunta: "¿Qué garantía ofrecen en sus servicios?",
-      respuesta: "Todos nuestros servicios están respaldados con garantía por escrito. En nuestro centro de servicio, es una norma devolver las piezas dañadas de tus equipos; de lo contrario, el servicio es completamente gratuito. Esto refleja nuestro compromiso con la transparencia y calidad."
+      respuesta: "Nuestros servicios de reparación cuentan con garantía por escrito. Como parte de nuestras políticas de transparencia, en el centro de servicio se entregan las piezas dañadas reemplazadas; en caso contrario, el servicio no tendrá costo. Este procedimiento respalda nuestro compromiso con la calidad y la confianza de nuestros clientes."
     },
     {
-      id: 8,
+      id: 9,
       categoria: "Garantías y Políticas",
       pregunta: "¿Cuál es su política de precios?",
       respuesta: "Trabajamos con total transparencia. Proporcionamos cotizaciones claras y detalladas antes de iniciar cualquier trabajo. No hay costos ocultos ni sorpresas desagradables. Nuestros precios son honestos y competitivos, reflejando la calidad de nuestro servicio."
     },
     {
-      id: 9,
+      id: 10,
       categoria: "Cotizaciones y Contacto",
       pregunta: "¿Cómo puedo solicitar una cotización?",
       respuesta: "Puedes solicitar una cotización de tres formas: 1) Llenando el formulario en nuestra página web, 2) Llamando directamente a nuestras oficinas, o 3) Enviándonos un mensaje por WhatsApp. Nos pondremos en contacto contigo en menos de 24 horas."
     },
     {
-      id: 10,
+      id: 11,
       categoria: "Cotizaciones y Contacto",
       pregunta: "¿Cuál es su horario de atención?",
-      respuesta: "Nuestro horario de atención es: Lunes a Viernes de 8:00 AM a 6:00 PM, y Sábados de 9:00 AM a 2:00 PM. Para emergencias o consultas urgentes, puedes contactarnos por WhatsApp donde respondemos lo más pronto posible."
+      respuesta: "Nuestro horario de atención es: Lunes a Viernes de 8:00 AM a 6:00 PM, y Sábados de 8:00 AM a 3:00 PM. Para emergencias o consultas urgentes, puedes contactarnos por WhatsApp donde respondemos lo más pronto posible."
     }
   ]
 

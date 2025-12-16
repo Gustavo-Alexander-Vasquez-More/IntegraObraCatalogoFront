@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 
 export default function AreasVerdes() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const servicios = [
     {
       titulo: 'Poda de Formación y Limpieza',
@@ -54,15 +57,6 @@ export default function AreasVerdes() {
       icono: (
         <svg className='w-8 h-8' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
           <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12' />
-        </svg>
-      )
-    },
-    {
-      titulo: 'Sistema de Riego',
-      descripcion: 'Instalación y mantenimiento de sistemas de riego eficientes para una hidratación óptima.',
-      icono: (
-        <svg className='w-8 h-8' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-          <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z' />
         </svg>
       )
     },

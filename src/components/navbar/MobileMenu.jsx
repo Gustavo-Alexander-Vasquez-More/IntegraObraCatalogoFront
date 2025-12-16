@@ -3,8 +3,19 @@ import InputSearch from './InputSearch'
 
 export default function MobileMenu({ setIsMenuOpen }) {
   return (
-    <div className='lg:hidden bg-[#53545B] shadow-lg'>
-      <div className='flex flex-col px-4 py-4 space-y-2'>
+    <div className='lg:hidden bg-[#53545bf4] shadow-lg fixed inset-0 z-50 overflow-y-auto'>
+      {/* Botón de cierre */}
+      <button
+        className='absolute top-4 right-4 z-50 bg-white/80 text-[#53545B] rounded-full p-3 shadow-xl hover:bg-[#F48437] hover:text-white focus:outline-none focus:ring-2 focus:ring-[#F48437] transition-all duration-200 transform hover:scale-110 backdrop-blur-md border border-[#F48437]/30'
+        aria-label='Cerrar menú'
+        onClick={() => setIsMenuOpen(false)}
+        style={{ boxShadow: '0 4px 24px 0 rgba(0,0,0,0.18)' }}
+      >
+        <svg className='w-7 h-7' fill='none' stroke='currentColor' strokeWidth='2.5' viewBox='0 0 24 24'>
+          <path strokeLinecap='round' strokeLinejoin='round' d='M6 18L18 6M6 6l12 12' />
+        </svg>
+      </button>
+      <div className='flex flex-col px-4 py-4 space-y-2 min-h-screen'>
         {/* Search Bar Mobile */}
         {/* <div className='mb-4'>
           <InputSearch/>

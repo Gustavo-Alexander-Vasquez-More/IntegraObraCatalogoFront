@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 
 export default function Soldadura() {
+  useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
   const servicios = [
     {
       titulo: 'Estructuras Metálicas',

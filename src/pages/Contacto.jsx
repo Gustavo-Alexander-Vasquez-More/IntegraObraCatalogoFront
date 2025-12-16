@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
 
 export default function Contacto() {
+  useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
   const [formData, setFormData] = useState({
     nombre: '',
     email: '',
@@ -124,16 +127,18 @@ export default function Contacto() {
                   className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F48437] focus:border-transparent transition bg-white'
                 >
                   <option value=''>Selecciona un servicio</option>
-                  <option value='Electricidad'>Electricidad</option>
-                  <option value='Plomería'>Plomería</option>
-                  <option value='Soldadura'>Soldadura</option>
-                  <option value='Tablaroca y Empastado'>Tablaroca y Empastado</option>
-                  <option value='Áreas Verdes'>Áreas Verdes</option>
-                  <option value='Cableado Estructurado'>Cableado Estructurado</option>
-                  <option value='Mantenimiento de Climas'>Mantenimiento de Climas</option>
-                  <option value='Renta de Maquinaria'>Renta de Maquinaria</option>
-                  <option value='Venta de Refacciones'>Venta de Refacciones</option>
-                  <option value='Otros'>Otros</option>
+                  <option value='Renta de maquinaria.'>Renta de maquinaria.</option>
+                  <option value='Centro de servicio.'>Centro de servicio.</option>
+                  <option value='Refaccionamiento.'>Refaccionamiento.</option>
+                  <option value='Obra Civil.'>Obra Civil.</option>
+                  <option value='Electricidad.'>Electricidad.</option>
+                  <option value='Refrigeración.'>Refrigeración.</option>
+                  <option value='Plomería.'>Plomería.</option>
+                  <option value='Herrería.'>Herrería.</option>
+                  <option value='Acabados.'>Acabados.</option>
+                  <option value='Cableado Estructurado.'>Cableado Estructurado.</option>
+                  <option value='Enlaces PTP.'>Enlaces PTP.</option>
+                  <option value='Mtto. Areas Verdes.'>Mtto. Areas Verdes.</option>
                 </select>
               </div>
 

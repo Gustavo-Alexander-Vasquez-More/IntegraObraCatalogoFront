@@ -20,33 +20,26 @@ export default function HeroHome() {
           <div className='space-y-8 z-10'>
             <div className='inline-block'>
               <span className='bg-[#F48437] text-white px-4 py-2 rounded-full text-sm font-semibold'>
-                Líderes en construcción
+                Construímos soluciones
               </span>
             </div>
 
             <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold leading-tight'>
-              Construimos tus
-              <span className='block text-[#F48437]'>sueños en realidad</span>
+              Respaldo confiable para
+              <span className='block text-[#F48437]'>tus proyectos</span>
             </h1>
 
             <p className='text-xl md:text-2xl text-gray-100 leading-relaxed'>
-              Tenemos de experiencia transformando proyectos en obras maestras. 
-              Calidad, compromiso y excelencia en cada detalle.
+              Renta de maquinaria ligera, reparación especializada y soluciones integrales.
             </p>
 
             {/* Botones de Acción */}
-            <div className='flex flex-col sm:flex-row gap-4'>
+            <div className='flex flex-col sm:flex-row gap-4 pb-10'>
               <a 
                 href='#cotizacion'
                 className='bg-[#F48437] hover:bg-[#e07730] text-white font-bold py-4 px-8 rounded-lg transition duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-center'
               >
                 Solicitar cotización
-              </a>
-              <a 
-                href='/contacto'
-                className='bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-bold py-4 px-8 rounded-lg transition duration-300 border-2 border-white/30 hover:border-white/50 text-center'
-              >
-                Contáctanos
               </a>
             </div>
           </div>
