@@ -7,105 +7,105 @@ export default function Testimonios() {
       nombre: "Javier Alonso",
       foto: "/testimonios/javierAlonso.png",
       estrellas: 5,
-      comentario: "Super atentos y super amables, me dieron un diagnostico bastante sincero y tienen una amplia cantidad de refacciones no tengo ninguna queja, ademas te dan garantía."
+      comentario: "Compré refacciones, me la instalaron y quedó de 10. La garantia y el seguimiento muy buenos."
     },
     {
       id: 2,
       nombre: "Alex More",
       foto: "https://lh3.googleusercontent.com/a/ACg8ocI6V5TH9PGRgBpUt29GAhIoWEYeLpVzL-kzz-KKNSJWhKLQXA=w72-h72-p-rp-mo-br100",
       estrellas: 5,
-      comentario: "Dejé mis equipos en el centro de servicio y los dejaron de 10!!..la atención muy buena, super amables!"
+      comentario: "Renté una máquina pal jardín, llegó puntual y jaló chido todo el día."
     },
     {
       id: 3,
       nombre: "Alan Perez",
       foto: "https://lh3.googleusercontent.com/a/ACg8ocJ6LrRqyMlV5MuFDYHp_n6aeVX0sbynTjnwV_A476Y82V54byI=w72-h72-p-rp-mo-br100",
       estrellas: 5,
-      comentario: "La amplia variedad de maquinaria ligera que se consigue acá es impresionante.. lo que mas destaco es la atencion del gerente y el profesionalismo con el que te asesora para poder lograr lo que uno busca."
+      comentario: "Hicieron una instalación eléctrica, super profesionales; dejaron todo seguro y me explicaron todo."
     },
     {
       id: 4,
       nombre: "María López",
       foto: "https://plus.unsplash.com/premium_photo-1682088124932-e5528eeae763?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2ElMjBtZXhpY2FuYXxlbnwwfHwwfHx8MA%3D%3D",
       estrellas: 5,
-      comentario: "Excelente servicio, me resolvieron todo rapidísimo y sin tanta burocracia. Recomendados al 100%."
+      comentario: "Me hicieron el cableado de la oficina; todo limpio, buen precio y sin broncas."
     },
     {
       id: 5,
       nombre: "Luis Martínez",
       foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5tsI5wMVd2XPVlJllTbRHtI1h8NQ1WdXKxg&s",
       estrellas: 4,
-      comentario: "Buen trabajo, solo que tardaron un poquito en la entrega. Por lo demás, todo bien y el precio justo."
+      comentario: "Mantenimiento general.... revisaron todo, cambiaron piezas originales. Se tardaron un poco pero quedó bien."
     },
     {
       id: 6,
       nombre: "Karla Itzá",
       foto: "https://images.unsplash.com/photo-1530047198515-516ff90fc4d9?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVqZXIlMjBtZXhpY2FuYXxlbnwwfHwwfHx8MA%3D%3D",
       estrellas: 5,
-      comentario: "Me atendieron en Mérida con mucha amabilidad, se portaron de primera. El técnico explicó todo clarito."
+      comentario: "Mantenimiento de climas en Mérida; los tecnicos llegaron puntuales y el trabajo quedó bien limpio."
     },
     {
       id: 7,
       nombre: "Don Chema",
       foto: "https://cdn-icons-png.flaticon.com/512/9000/9000010.png",
       estrellas: 5,
-      comentario: "la neta se la rifaron, me arreglaron la podadora en menos de lo que esperaba y me cobraron lo justo. Volvería sin pensarlo."
+      comentario: "Me soldaron unas piezas de la podadora, quedó como nueva y me cobraron lo justo. Muy buen servicio."
     },
     {
       id: 8,
       nombre: "Rosa Pérez",
       foto: "https://i.pinimg.com/originals/fe/0d/27/fe0d27685ee352e17c7714e18408298b.jpg",
       estrellas: 4,
-      comentario: "Buen servicio, la refacción llegó bien pero venía con un rayón pequeño. Me lo cambiaron sin problema."
+      comentario: "Pedí una refacción para la cortadora; llegó con un rayon pero me la cambiaron sin rollos."
     },
     {
       id: 9,
       nombre: "Erick Chablé",
       foto: "https://i.pinimg.com/736x/2c/3c/b7/2c3cb7064c1068b54f8cecebb5b8fdc1.jpg",
       estrellas: 5,
-      comentario: "Me ayudaron un buen, quedaron al tiro con mi equipo y ya quedó como nuevo. Muy contento con la atención."
+      comentario: "Renté equipo pa una obra; todo bien, recogida sencilla y soporte cuando lo necesité."
     },
     {
       id: 10,
       nombre: "Mayra Cruz",
       foto: "https://images.unsplash.com/photo-1620715263611-0774a0e056a5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVsaGVyJTIwbWV4aWNhbmF8ZW58MHx8MHx8fDA%3D",
       estrellas: 5,
-      comentario: "Trato excelente y muy profesionales; el técnico fue paciente y me explicó todo paso a paso. Gracias!"
+      comentario: "Atención en taller para plomería solucionaron la fuga y me explicaron clarito lo que pasó."
     },
     {
       id: 11,
       nombre: "Jorge Ramírez",
       foto: "https://i.pinimg.com/736x/a0/a1/65/a0a16571b6d65d38ab22f9e55cc19f4b.jpg",
       estrellas: 4,
-      comentario: "Todo bien con la reparación, nomás que el envío tardó más de lo esperado. Aún así los recomiendo."
+      comentario: "compre unas refacciones, una chualada buen surtido que traen namás el envio se retraso tantito pero la calidad está bastante buena"
     },
     {
       id: 12,
       nombre: "Ana Gómez",
       foto: "https://wallpapers.com/images/hd/cute-anime-profile-pictures-0lifptfs0jd9fml3.jpg",
       estrellas: 5,
-      comentario: "Las refacciones que compré son 100% originales y llegaron súper rápido. Buena experiencia."
+      comentario: "renta un generador y todo muy formal... me entregaron los papeles y me atendieron chido."
     },
     {
       id: 13,
       nombre: "Miguel Castillo",
       foto: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tYnJlJTIwbWV4aWNhbm98ZW58MHx8MHx8fDA%3D",
       estrellas: 5,
-      comentario: "Buen equipo y atención sin broncas. Me explicaron todo y dejaron todo funcionando."
+      comentario: "Hicieron tablaroca y empastado en mi local, quedó muy bien, muy padre el gerente.. dejaron todo limpio."
     },
     {
       id: 14,
       nombre: "Patricia Vega",
       foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5XsLnnc72Y26rYZViBhH3tjX6iEVTgpq-Bw&s",
       estrellas: 4,
-      comentario: "Quedó un detalle menor después del servicio, pero lo resolvieron rápido. Buena disposición del personal."
+      comentario: "Asesoria para proyecto eléctrico; me dieron varias opciones y presupuesto claro, me gustó."
     },
     {
       id: 15,
       nombre: "Fernando López",
       foto: "https://cdn-icons-png.freepik.com/512/9230/9230518.png",
       estrellas: 5,
-      comentario: "Excelente atención, muy claros y cumplidos. Si vuelvo a necesitar algo no dudo en traerlo aquí."
+      comentario: "La cotización fue rapida y la atención posventa me ayudó cuando tuve dudas."
     }
   ]
 
