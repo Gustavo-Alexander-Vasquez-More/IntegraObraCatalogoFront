@@ -41,21 +41,21 @@ export default function Contacto() {
   return (
     <>
       <Helmet>
-        <title>Contacto | IntegraObra Monterrey</title>
-        <meta name="description" content="Contáctanos para cotizaciones, dudas o información sobre servicios de construcción, mantenimiento, renta de maquinaria y más en Monterrey. Respuesta rápida y atención profesional. ¡Escríbenos por WhatsApp o correo!" />
-        <meta name="keywords" content="contacto IntegraObra, contacto construcción Monterrey, cotización obra Monterrey, WhatsApp IntegraObra, servicios construcción Monterrey, atención profesional Monterrey" />
+        <title>Contacto | IntegraObra Mérida</title>
+        <meta name="description" content="Contáctanos para cotizaciones, dudas o información sobre servicios de construcción, mantenimiento, renta de maquinaria y más en Mérida. Respuesta rápida y atención profesional. ¡Escríbenos por WhatsApp o correo!" />
+        <meta name="keywords" content="contacto IntegraObra, contacto construcción Mérida, cotización obra Mérida, WhatsApp IntegraObra, servicios construcción Mérida, atención profesional Mérida" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://integraobra.com/contacto" />
         {/* Open Graph */}
-        <meta property="og:title" content="Contacto | IntegraObra Monterrey" />
-        <meta property="og:description" content="Contáctanos para cotizaciones, dudas o información sobre servicios de construcción, mantenimiento, renta de maquinaria y más en Monterrey. Respuesta rápida y atención profesional." />
+        <meta property="og:title" content="Contacto | IntegraObra Mérida" />
+        <meta property="og:description" content="Contáctanos para cotizaciones, dudas o información sobre servicios de construcción, mantenimiento, renta de maquinaria y más en Mérida. Respuesta rápida y atención profesional." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://integraobra.com/contacto" />
         <meta property="og:image" content="https://integraobra.com/contacto.webp" />
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Contacto | IntegraObra Monterrey" />
-        <meta name="twitter:description" content="Contáctanos para cotizaciones, dudas o información sobre servicios de construcción, mantenimiento, renta de maquinaria y más en Monterrey. Respuesta rápida y atención profesional." />
+        <meta name="twitter:title" content="Contacto | IntegraObra Mérida" />
+        <meta name="twitter:description" content="Contáctanos para cotizaciones, dudas o información sobre servicios de construcción, mantenimiento, renta de maquinaria y más en Mérida. Respuesta rápida y atención profesional." />
         <meta name="twitter:image" content="https://integraobra.com/contacto.webp" />
       </Helmet>
       <div className='min-h-screen bg-gray-50'>

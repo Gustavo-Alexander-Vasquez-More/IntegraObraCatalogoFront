@@ -116,20 +116,20 @@ export default function TablarocaEmpastado() {
   return (
     <>
       <Helmet>
-        <title>Tablaroca y Empastado para Construcción en Monterrey | IntegraObra</title>
-        <meta name="description" content="Instalación profesional de tablaroca y empastado en Monterrey: muros, plafones, acabados lisos, estructura metálica y más. Acabados perfectos, instalación rápida y materiales de calidad. ¡Cotiza tu proyecto!" />
-        <meta name="keywords" content="tablaroca Monterrey, empastado Monterrey, muros de tablaroca, plafones Monterrey, acabados lisos Monterrey, instalación tablaroca Monterrey, IntegraObra" />
+        <title>Tablaroca y Empastado para Construcción en Mérida | IntegraObra</title>
+        <meta name="description" content="Instalación profesional de tablaroca y empastado en Mérida: muros, plafones, acabados lisos, estructura metálica y más. Acabados perfectos, instalación rápida y materiales de calidad. ¡Cotiza tu proyecto!" />
+        <meta name="keywords" content="tablaroca Mérida, empastado Mérida, muros de tablaroca, plafones Mérida, acabados lisos Mérida, instalación tablaroca Mérida, IntegraObra" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://integraobra.com/servicios/tablaroca-empastado" />
         {/* Open Graph */}
-        <meta property="og:title" content="Tablaroca y Empastado para Construcción en Monterrey | IntegraObra" />
+        <meta property="og:title" content="Tablaroca y Empastado para Construcción en Mérida | IntegraObra" />
         <meta property="og:description" content="Instalación profesional de tablaroca y empastado: muros, plafones, acabados lisos, estructura metálica y más. Acabados perfectos, instalación rápida y materiales de calidad." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://integraobra.com/servicios/tablaroca-empastado" />
         <meta property="og:image" content="https://integraobra.com/tablaroca/banner.webp" />
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Tablaroca y Empastado para Construcción en Monterrey | IntegraObra" />
+        <meta name="twitter:title" content="Tablaroca y Empastado para Construcción en Mérida | IntegraObra" />
         <meta name="twitter:description" content="Instalación profesional de tablaroca y empastado: muros, plafones, acabados lisos, estructura metálica y más. Acabados perfectos, instalación rápida y materiales de calidad." />
         <meta name="twitter:image" content="https://integraobra.com/tablaroca/banner.webp" />
       </Helmet>
