@@ -195,7 +195,7 @@ export default function Contacto() {
                   <h3 className='text-xl font-semibold text-gray-800 mb-2'>Teléfono</h3>
                   <div className='flex flex-col'>
                     <a href="tel:+5219995210167" className='text-gray-600 hover:underline'>999 521 0167</a>
-                    <a href='tel:8001200064' className='text-gray-600 hover:underline  mt-1'>800 120 0064 <span className='ml-1 text-xs text-gray-500'>(Línea sin costo)</span></a>
+                    <a href='tel:8000443300' className='text-gray-600 hover:underline  mt-1'>800 044 3300 <span className='ml-1 text-xs text-gray-500'>(Línea sin costo)</span></a>
                   </div>
                 </div>
               </div>

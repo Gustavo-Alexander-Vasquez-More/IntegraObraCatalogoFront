@@ -33,7 +33,7 @@ export default function NavBar() {
                 <span>999 521 0167</span>
               </a>
               <div className='mt-1 text-right'>
-                <a href='tel:8001200064' className='text-xs text-white/90 hover:text-white block'>800 120 0064 <span className='ml-1 text-[10px] text-white'>(Línea sin costo)</span></a>
+                <a href='tel:8000443300' className='text-xs text-white/90 hover:text-white block'>800 044 3300 <span className='ml-1 text-[10px] text-white'>(Línea sin costo)</span></a>
               </div>
             </div>
           </div>
