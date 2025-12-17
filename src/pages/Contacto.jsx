@@ -110,7 +110,7 @@ export default function Contacto() {
                   onChange={handleChange}
                   required
                   className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F48437] focus:border-transparent transition'
-                  placeholder='+52 999 123 4567'
+                  placeholder='999 123 4567'
                 />
               </div>
 
@@ -193,7 +193,10 @@ export default function Contacto() {
                 </div>
                 <div>
                   <h3 className='text-xl font-semibold text-gray-800 mb-2'>Teléfono</h3>
-                  <a href="tel:+5219995210167" className='text-gray-600 hover:underline'>+52 1 999 521 0167</a>
+                  <div className='flex flex-col'>
+                    <a href="tel:+5219995210167" className='text-gray-600 hover:underline'>999 521 0167</a>
+                    <a href='tel:8001200064' className='text-gray-600 hover:underline  mt-1'>800 120 0064 <span className='ml-1 text-xs text-gray-500'>(Línea sin costo)</span></a>
+                  </div>
                 </div>
               </div>
 

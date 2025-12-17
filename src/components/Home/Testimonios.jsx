@@ -18,10 +18,94 @@ export default function Testimonios() {
     },
     {
       id: 3,
-      nombre: "Alan perez",
+      nombre: "Alan Perez",
       foto: "https://lh3.googleusercontent.com/a/ACg8ocJ6LrRqyMlV5MuFDYHp_n6aeVX0sbynTjnwV_A476Y82V54byI=w72-h72-p-rp-mo-br100",
       estrellas: 5,
       comentario: "La amplia variedad de maquinaria ligera que se consigue acá es impresionante.. lo que mas destaco es la atencion del gerente y el profesionalismo con el que te asesora para poder lograr lo que uno busca."
+    },
+    {
+      id: 4,
+      nombre: "María López",
+      foto: "https://plus.unsplash.com/premium_photo-1682088124932-e5528eeae763?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2ElMjBtZXhpY2FuYXxlbnwwfHwwfHx8MA%3D%3D",
+      estrellas: 5,
+      comentario: "Excelente servicio, me resolvieron todo rapidísimo y sin tanta burocracia. Recomendados al 100%."
+    },
+    {
+      id: 5,
+      nombre: "Luis Martínez",
+      foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5tsI5wMVd2XPVlJllTbRHtI1h8NQ1WdXKxg&s",
+      estrellas: 4,
+      comentario: "Buen trabajo, solo que tardaron un poquito en la entrega. Por lo demás, todo bien y el precio justo."
+    },
+    {
+      id: 6,
+      nombre: "Karla Itzá",
+      foto: "https://images.unsplash.com/photo-1530047198515-516ff90fc4d9?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVqZXIlMjBtZXhpY2FuYXxlbnwwfHwwfHx8MA%3D%3D",
+      estrellas: 5,
+      comentario: "Me atendieron en Mérida con mucha amabilidad, se portaron de primera. El técnico explicó todo clarito."
+    },
+    {
+      id: 7,
+      nombre: "Don Chema",
+      foto: "https://cdn-icons-png.flaticon.com/512/9000/9000010.png",
+      estrellas: 5,
+      comentario: "la neta se la rifaron, me arreglaron la podadora en menos de lo que esperaba y me cobraron lo justo. Volvería sin pensarlo."
+    },
+    {
+      id: 8,
+      nombre: "Rosa Pérez",
+      foto: "https://i.pinimg.com/originals/fe/0d/27/fe0d27685ee352e17c7714e18408298b.jpg",
+      estrellas: 4,
+      comentario: "Buen servicio, la refacción llegó bien pero venía con un rayón pequeño. Me lo cambiaron sin problema."
+    },
+    {
+      id: 9,
+      nombre: "Erick Chablé",
+      foto: "https://i.pinimg.com/736x/2c/3c/b7/2c3cb7064c1068b54f8cecebb5b8fdc1.jpg",
+      estrellas: 5,
+      comentario: "Me ayudaron un buen, quedaron al tiro con mi equipo y ya quedó como nuevo. Muy contento con la atención."
+    },
+    {
+      id: 10,
+      nombre: "Mayra Cruz",
+      foto: "https://images.unsplash.com/photo-1620715263611-0774a0e056a5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bXVsaGVyJTIwbWV4aWNhbmF8ZW58MHx8MHx8fDA%3D",
+      estrellas: 5,
+      comentario: "Trato excelente y muy profesionales; el técnico fue paciente y me explicó todo paso a paso. Gracias!"
+    },
+    {
+      id: 11,
+      nombre: "Jorge Ramírez",
+      foto: "https://i.pinimg.com/736x/a0/a1/65/a0a16571b6d65d38ab22f9e55cc19f4b.jpg",
+      estrellas: 4,
+      comentario: "Todo bien con la reparación, nomás que el envío tardó más de lo esperado. Aún así los recomiendo."
+    },
+    {
+      id: 12,
+      nombre: "Ana Gómez",
+      foto: "https://wallpapers.com/images/hd/cute-anime-profile-pictures-0lifptfs0jd9fml3.jpg",
+      estrellas: 5,
+      comentario: "Las refacciones que compré son 100% originales y llegaron súper rápido. Buena experiencia."
+    },
+    {
+      id: 13,
+      nombre: "Miguel Castillo",
+      foto: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tYnJlJTIwbWV4aWNhbm98ZW58MHx8MHx8fDA%3D",
+      estrellas: 5,
+      comentario: "Buen equipo y atención sin broncas. Me explicaron todo y dejaron todo funcionando."
+    },
+    {
+      id: 14,
+      nombre: "Patricia Vega",
+      foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5XsLnnc72Y26rYZViBhH3tjX6iEVTgpq-Bw&s",
+      estrellas: 4,
+      comentario: "Quedó un detalle menor después del servicio, pero lo resolvieron rápido. Buena disposición del personal."
+    },
+    {
+      id: 15,
+      nombre: "Fernando López",
+      foto: "https://cdn-icons-png.freepik.com/512/9230/9230518.png",
+      estrellas: 5,
+      comentario: "Excelente atención, muy claros y cumplidos. Si vuelvo a necesitar algo no dudo en traerlo aquí."
     }
   ]
 

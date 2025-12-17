@@ -37,45 +37,53 @@ export default function Marcas() {
   }
 
   return (
-    <div className='bg-gradient-to-b from-gray-50 to-gray-100 py-16'>
+    <div className='relative bg-gradient-to-b from-gray-50 to-gray-100 py-16'>
       <div className='container mx-auto px-4'>
         {/* Header */}
         <div className='text-center mb-12'>
           <h2 className='text-4xl md:text-5xl font-bold text-gray-800 mb-4'>
-            Marcas en las que <span className='text-[#F48437]'>confíamos</span>
+            Marcas en las que <span className='text-[#F48437]'>confiamos</span>
           </h2>
           <p className='text-xl text-gray-600 max-w-2xl mx-auto'>
             Trabajamos con las mejores marcas de la industria
           </p>
         </div>
 
-        {/* Carousel Container */}
-        <Carousel
-          responsive={responsive}
-          autoPlay={true}
-          autoPlaySpeed={3000}
-          infinite={true}
-          arrows={false}
-          swipeable={true}
-          draggable={true}
-          showDots={false}
-          removeArrowOnDeviceType={['tablet', 'mobile']}
-          containerClass='carousel-container'
-          itemClass='px-4'
-        >
-          {marcas.map((marca) => (
-            <div
-              key={marca.id}
-              className='w-full h-[120px] bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 flex items-center justify-center p-4 grayscale hover:grayscale-0 group'
-            >
-              <img
-                src={marca.logo}
-                alt={marca.nombre}
-                className='max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-110'
-              />
-            </div>
-          ))}
-        </Carousel>
+        {/* Carousel Container Mejorado */}
+        <div className='relative bg-white/80 rounded-3xl shadow-2xl border border-[#F48437]/20 py-8 px-2 md:px-8 mb-8'>
+          <Carousel
+            responsive={responsive}
+            autoPlay={true}
+            autoPlaySpeed={3000}
+            infinite={true}
+            arrows={false}
+            swipeable={true}
+            draggable={true}
+            showDots={false}
+            removeArrowOnDeviceType={['tablet', 'mobile']}
+            containerClass='carousel-container'
+            itemClass='px-4'
+          >
+            {marcas.map((marca) => (
+              <div
+                key={marca.id}
+                className='w-full h-[120px] bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md hover:shadow-2xl border border-gray-200 hover:border-[#F48437] transition-all duration-300 flex items-center justify-center p-4 grayscale hover:grayscale-0 group hover:bg-[#fff7f2]'
+              >
+                <img
+                  src={marca.logo}
+                  alt={marca.nombre}
+                  className='max-w-full max-h-full object-contain transition-transform duration-300 group-hover:scale-110 drop-shadow-md'
+                />
+              </div>
+            ))}
+          </Carousel>
+        </div>
+      </div>
+      {/* Franja decorativa inferior SVG */}
+      <div className='absolute left-0 right-0 bottom-0 w-full overflow-hidden leading-none pointer-events-none'>
+        <svg viewBox='0 0 1920 80' fill='none' xmlns='http://www.w3.org/2000/svg' className='w-full h-20 md:h-24'>
+          <path d='M0 0C400 80 1520 0 1920 80V80H0V0Z' fill='#fff'/>
+        </svg>
       </div>
     </div>
   )

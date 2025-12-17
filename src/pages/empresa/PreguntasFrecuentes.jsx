@@ -264,7 +264,7 @@ export default function PreguntasFrecuentes() {
                   </div>
                   <div>
                     <p className='font-semibold text-gray-800'>Llámanos</p>
-                    <p className='text-gray-600'>+52 999 123 4567</p>
+                    <p className='text-gray-600'>999 123 4567</p>
                   </div>
                 </div>
 
