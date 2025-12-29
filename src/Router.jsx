@@ -10,11 +10,12 @@ import PreguntasFrecuentes from "./pages/empresa/PreguntasFrecuentes.jsx";
 import PoliticaPrivavidad from "./pages/empresa/PoliticaPrivavidad.jsx";
 import SobreNosotros from "./pages/empresa/SobreNosotros.jsx";
 import VentaRefacciones from "./pages/equipos/VentaRefacciones.jsx";
-import RentaEquipos from "./pages/equipos/RentaEquipos.jsx";
 import MantoClimas from "./pages/servicios/MantoClimas.jsx"
 import Contacto from "./pages/Contacto.jsx";
 import RentaMaquinariaLigera from "./pages/servicios/rentaMaquinariaLigera.jsx";
 import Refacciones from "./pages/servicios/refacciones.jsx";
+import CatalogoRenta from "./pages/CatalogoRenta.jsx";
+import InfoEquipo from "./pages/InfoEquipo.jsx";
 
 function Router() {
   return (
@@ -32,8 +33,9 @@ function Router() {
       <Route path="/empresa/preguntas-frecuentes" element={<PreguntasFrecuentes/>} />
       <Route path="/servicios/renta-maquinaria-ligera" element={<RentaMaquinariaLigera/>} />
       <Route path="/servicios/refacciones" element={<Refacciones/>} />
-      {/* <Route path="/equipos/venta-refacciones" element={<VentaRefacciones/>} />
-      <Route path="/equipos/renta-equipos" element={<RentaEquipos/>} /> */}
+      {/* <Route path="/equipos/venta-refacciones" element={<VentaRefacciones/>} />*/}
+      <Route path="/equipos/renta-equipos" element={<CatalogoRenta/>} /> 
+      <Route path="/equipos/:nombre/:id" element={<InfoEquipo/>} />
       <Route path="/contacto" element={<Contacto/>} />
     </Routes>
   );
